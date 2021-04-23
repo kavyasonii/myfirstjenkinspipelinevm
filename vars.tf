@@ -12,3 +12,5 @@ variable "ssh-source-address" {
   type    = string
   default = "*"
 }
+variable "client_secret" {
+}
