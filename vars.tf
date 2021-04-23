@@ -14,5 +14,5 @@ variable "ssh-source-address" {
 }
 variable "client_secret" {
  type    = string
-  default = "DhevY5vg9-a61e~1XjgIbU.0.f5kG0Bv5P"
+ default = "DhevY5vg9-a61e~1XjgIbU.0.f5kG0Bv5P"
 }
