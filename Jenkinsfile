@@ -1,5 +1,5 @@
 
-properties([paeameters([choice(choices: ['QA','DEV','PROD'],description: 'select env',name: 'ENV')])])
+properties([parameters([choice(choices: ['QA','DEV','PROD'],description: 'select env',name: 'ENV')])])
 node(){
     stage("PullCode")
         {
